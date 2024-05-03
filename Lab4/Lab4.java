@@ -145,7 +145,6 @@ minimaxNodes[0]);
 int[] alphabetaNodes = new int[]{0};
 game.alphabeta(game, 0, true, Integer.MIN_VALUE,
 Integer.MAX_VALUE, alphabetaNodes);
-System.out.println("Number of nodes evaluated for ALPHA-BETA
-PRUNING: " + alphabetaNodes[0]);
+System.out.println("Number of nodes evaluated for ALPHA-BETA PRUNING: " + alphabetaNodes[0]);
 }
 }
